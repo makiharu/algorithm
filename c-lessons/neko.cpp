@@ -4,13 +4,10 @@ using namespace std;
 
 class Neko
 {
-  private:
     string name;
   public:
-    Neko(string s) {
-      name = s;
-    }
-    void naku() {
+    Neko(string s) :name(s){}
+    void naku() const{
       cout<<"にゃあ。吾輩は"<<name<<"である"<<endl;
     }
 };
