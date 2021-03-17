@@ -5,7 +5,6 @@ class Glass
 {
     int capacity;
   public:
-    //Glass():capacity(10){};//引数を取らないコンストラクタ
     Glass(int x):capacity(x){}
     void dasu(int);
 };

@@ -6,6 +6,7 @@ class Glass
 {
   int nakami;
 public:
+  //コンストラクタを２つ用意する
   //引数を取らないコンストラクタ
   Glass():nakami(10){}
   //引数をとるコンストラクタ

@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
   string name;
+  
   int age;
 
   cout<<"こんにちは。私はコンピュータです。"<<endl;

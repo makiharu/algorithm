@@ -9,8 +9,6 @@ class Neko
     Neko(string s) :name(s){}
     void naku() const{
       cout<<"にゃあ。吾輩は"<<name<<"である"<<endl;
-
-
     }
 };
 
